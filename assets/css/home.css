@@ -1,0 +1,180 @@
+p {
+	text-align: justify;
+}
+.profil .btn, .pendaftaran .btn, .galeri .btn {
+	width: 13em;
+	box-shadow: 3px 3px 5px #878787;
+	border-radius: 30px;
+	margin-bottom: 20px;
+}
+.profil h2 {
+	margin-top: 20px;
+}
+.profil iframe {
+	width: 80%;
+	margin: 20px 0 20px 10%;
+	border-radius: 10px;
+}
+.profil iframe:hover {
+	box-shadow: 0 5px 10px #878787;
+}
+.prodi h2 {
+	margin: 20px 0;
+}
+.prodi .card {
+	border: 5px solid #878787;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+.prodi .card:hover {
+	box-shadow: 0 5px 10px #878787;
+}
+.prodi .card img {
+	width: 90%;
+	margin: 5%;
+	border-radius: 10px;
+}
+.prodi .card h5 {
+	width: 100%;
+	text-align: center;
+}
+.prodi .card .btn {
+	width: 60%;
+	margin-left: 20%;
+	margin-bottom: 10px;
+	border-radius: 100px;
+	box-shadow: 0 3px 5px #878787;
+}
+.prodi .card .btn:hover {
+	filter: brightness(85%);
+}
+.prodi .card1 {
+	border-color: #ffbb00;
+}
+.prodi .card1 .btn {
+	background-color: #ffbb00;
+	color: #fff;
+}
+.prodi .card2 {
+	border-color: #00ff2a;
+}
+.prodi .card2 .btn {
+	background-color: #00ff2a;
+	color: #fff;
+}
+.prodi .card3 {
+	border-color: #007bff;
+}
+.prodi .card3 .btn {
+	background-color: #007bff;
+	color: #fff;
+}
+.pendaftaran .bulat1 {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background-color: #007bff;
+	border-radius: 100%;
+	opacity: 40%;
+	bottom: 5%;
+	right: 5%;
+	z-index: -1;
+}
+.pendaftaran .bulat2 {
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	background-color: #007bff;
+	border-radius: 100%;
+	opacity: 40%;
+	top: 0;
+	left: 5%;
+	z-index: -1;
+}
+.galeri img {
+	width: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
+.galeri h5 {
+	text-align: center;
+}
+.galeri .card {
+	margin: 5px;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	box-shadow: 0 3px 5px #878787;
+	padding: 0;
+}
+.kontak {
+	background-color: #007bff;
+}
+.kontak iframe:hover {
+	box-shadow: 1px 1px 10px #000;
+	transform: scale(1.1);
+}
+.kontak h5 {
+	width: 100%;
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+}
+.kontak .form h5 {
+	text-align: left;
+	font-weight: bold;
+}
+.kontak img {
+	width: 40px;
+	margin: 10px;
+}
+.kontak a {
+	color: #fff;
+	text-decoration: none;
+}
+.kontak input {
+	width: 100%;
+	height: 30px;
+	border-radius: 100px;
+	border: none;
+	outline: none;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+.kontak textarea {
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	padding: 0 20px;
+	margin-bottom: 20px;
+}
+.kontak p {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+@media (max-width: 770px) {
+	/*banner*/
+	.jumbotron h1 {
+		font-size: 30px;
+		text-align: center;
+		width: 100%;
+	}
+	.jumbotron .btn {
+		width: 80%;
+		margin-left: 10%;
+	}
+	/*banner*/
+	.profil .btn {
+		width: 40%;
+		margin-left: 30%;
+	}
+	.prodi .card {
+	width: 80%;
+	margin-left: 10%;
+	}
+	.pendaftaran .bulat1, .pendaftaran .bulat2 {
+		display: none;
+	}
+}

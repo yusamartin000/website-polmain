@@ -1,0 +1,24 @@
+.col h2 {
+	padding: 20px 20px;
+}
+.col {
+	box-shadow: 3px 3px 5px #c7c7c7;
+	border: 1px solid #c7c7c7;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.col .row {
+	height: 70vh;
+	padding-bottom: 20px;
+}
+iframe {
+	border-radius: 10px;
+	border: none;
+}
+iframe:hover {
+	box-shadow: 3px 3px 5px #878787;
+}
+h2 img {
+	width: 40px;
+	margin: 0 5px;
+}

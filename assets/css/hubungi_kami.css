@@ -1,0 +1,43 @@
+.container {
+	line-height: 1.5;
+}
+.row {
+	border: 1px solid #c7c7c7;
+	border-radius: 10px;
+	box-shadow: 0 3px 5px #c7c7c7;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+.row:hover {
+	box-shadow: 0 3px 5px #878787;
+}
+span {
+	color: red;
+}
+input {
+	width: 100%;
+	height: 30px;
+	border-radius: 100px;
+	padding: 20px;
+	outline: none;
+	border: 1px solid #c7c7c7;
+}
+textarea {
+	width: 100%;
+	height: 90px;
+	border-radius: 10px;
+	padding: 20px;
+	outline: none;
+	border: 1px solid #c7c7c7;
+}
+input:hover, textarea:hover {
+	box-shadow: inset 1px 1px 5px #c7c7c7;
+}
+@media (max-width: 770px) {
+	.row {
+		box-shadow: none;
+	}
+	.row:hover {
+		box-shadow: none;
+	}
+}
