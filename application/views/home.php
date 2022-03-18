@@ -6,7 +6,7 @@
     <!-- my css -->
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>assets/css/home.css">
 
-    <title>Beranda</title>
+    <title>POLMAIN</title>
   </head>
   <body>
     <!-- navbar -->
