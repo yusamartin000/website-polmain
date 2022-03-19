@@ -1,20 +1,50 @@
 .container {
-	margin: 10px auto;
 	border-bottom: 1px solid #878787;
 }
-img {
+.ukm {
+	padding: 10px auto;
+}
+.ukm img {
 	width: 100%; 
 	border-radius: 5px;
 }
 .card {
 	border: 1px solid #c7c7c7; 
 	padding-top: 5px; 
-	border-radius: 10px; 
-	margin: 1px;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 3px;
 }
 .card img {
 	width: 100%; 
-	height: 300px; 
+	height: 300; 
 	border-radius: 5px; 
 	object-fit: cover;
+}
+.ukm > .row {
+  display: block;
+  overflow-x: auto;
+  white-space: inherit;
+}
+.ukm > .row > .col-md-3 {
+  display: inline-block;
+}
+@media (max-width: 770px) {
+	.card {
+		margin: 0;
+		border: none;
+		padding: 5px;
+	}
+	.prestasi {
+		padding: 0 5px;
+	}
+	.prestasi h5 {
+		font-size: 14px;
+	}
+	.prstasi i {
+		font-size: 12px;
+	}
+	.ukm > .row {
+	  white-space: nowrap;
+	}
 }

@@ -4,7 +4,7 @@
     <!-- load header -->
     <?php $this->load->view('header');?>
     <!-- my css -->
-    <link rel="stylesheet" type="text/css" href="<?= base_url();?>assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url();?>assets/css/prodi.css">
 
     <title>Profil POLMAIN</title>
   </head>
@@ -13,24 +13,18 @@
     <div style="width: 100%; background-image: linear-gradient(to top, rgba(0, 123, 255, 1), rgba(0, 59, 122, 1)); box-shadow: 3px 0 5px #050505;"><?php $this->load->view('navbar');?></div>
     <!-- jumbotron -->
     <div class="container">
-      <div class="jumbotron bg-transparent">
+      <div class="jumbotron bg-transparent" style="margin: 0; padding-bottom: 10px; padding-top: 50px;">
         <div class="row">
           <div class="col-md">
             <h1 class="display-5 font-weight-bold">POLITEKNIK MASAMY INTERNASIONAL</h1>
-            <a class="btn btn-primary btn-lg" href="<?= base_url();?>index.php/welcome/pmb" role="button">Daftar Sekarang</a>
+            <a class="btn btn-primary" href="<?= base_url();?>index.php/welcome/pmb" role="button" >Daftar Sekarang</a>
           </div>
           <div class="col">
-            <div class="imgcontainer">
-              <img src="<?= base_url();?>assets/img/gedungkampus.jpg" width="120%">
-            </div>
-          </div>
-          </div>
-            <div class="ornament">
-            <div class="kotak"></div>
-            <div class="bulat"></div>
+            <img src="<?= base_url();?>assets/img/gedungkampus.jpg" width="100%" style="border-radius: 10px;">
           </div>
         </div>
-  </div>
+      </div>
+    </div>
     <!-- jumbotron -->
     <div class="container">
       <div class="row">
@@ -82,7 +76,7 @@
             <li>Mahasiswa akan mendapatkan makan siang gratis dari kampus</li>
             <li>Sumber belajar :  buku/ perpustakaan dan <i>open courseware</i> / internet</li>
           </ol>
-          <h2 class="font-weight-bold title" style="margin-top: 20px;">Fasilitas</h2>
+          <h2 class="font-weight-bold title" id="fasilitas" style="margin-top: 20px;">Fasilitas</h2>
           <ol>
             <li>Kerjasama dengan Industri</li>
             <li>Akan dilengkapi dengan Lini Produksi</li>

@@ -27,7 +27,7 @@
         disesuaikan dari kouta yang diberikan baik dari pemerintah, yayasan sosial ataupun perusahaan swasta.
         <p>
         <p>
-        <b>Jenis Beasiswa POLMAIN:</b>
+        <h4>Jenis Beasiswa POLMAIN:</h4>
         <ol>
         <li>Beasiswa KIP-Kuliah</li>
         <li>Beasiswa UKT</li>
