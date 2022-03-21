@@ -7,4 +7,7 @@ class M_gambar extends CI_Model{
 	function gambar_bem(){
 		return $this->db->query("SELECT * FROM `bem` ORDER BY id");
 	}
+	function data_sdm(){
+		return $this->db->query("SELECT * FROM `sdm` ORDER BY id");
+	}
 }

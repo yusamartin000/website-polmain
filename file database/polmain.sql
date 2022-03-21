@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 5.0.4
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 16 Mar 2022 pada 05.17
--- Versi server: 10.4.11-MariaDB
--- Versi PHP: 7.4.3
+-- Waktu pembuatan: 21 Mar 2022 pada 17.23
+-- Versi server: 10.4.17-MariaDB
+-- Versi PHP: 7.3.27
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -112,7 +111,7 @@ INSERT INTO `pdf` (`id`, `keys`, `label`, `link_pdf`) VALUES
 CREATE TABLE `prestasi` (
   `id` int(11) NOT NULL,
   `nama_gambar` varchar(100) NOT NULL,
-  `link_gambar` varchar(200) NOT NULL,
+  `tahun_gambar` varchar(200) NOT NULL,
   `deskripsi_gambar` varchar(400) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -120,9 +119,47 @@ CREATE TABLE `prestasi` (
 -- Dumping data untuk tabel `prestasi`
 --
 
-INSERT INTO `prestasi` (`id`, `nama_gambar`, `link_gambar`, `deskripsi_gambar`) VALUES
-(1, 'prestasi_futsal.jpeg', '', 'Juara 1 Trofeo Futsal'),
-(2, 'Juara-lomba-3-agribisnis.jpg', '', 'Juara 3 Agribisnis');
+INSERT INTO `prestasi` (`id`, `nama_gambar`, `tahun_gambar`, `deskripsi_gambar`) VALUES
+(1, 'Juara-lomba-3-agribisnis.jpg', '2021', 'Juara 3 Agribisnis '),
+(2, 'prestasi_futsal.jpeg', '2019', 'Juara 1 Trofeo Futsal');
+
+-- --------------------------------------------------------
+
+--
+-- Struktur dari tabel `sdm`
+--
+
+CREATE TABLE `sdm` (
+  `id` int(11) NOT NULL,
+  `nama` varchar(200) NOT NULL,
+  `nidn` varchar(100) NOT NULL,
+  `foto` varchar(400) NOT NULL,
+  `minat_bidang` varchar(100) NOT NULL,
+  `jabatan` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data untuk tabel `sdm`
+--
+
+INSERT INTO `sdm` (`id`, `nama`, `nidn`, `foto`, `minat_bidang`, `jabatan`) VALUES
+(1, 'Prof.Dr.Ir.H.Djoko Hartanto,M.Sc.', '', '', '', 'Penasehat Direktur'),
+(2, 'Prof.Dr.H.Rio Sofwanhadi,PAK(K)', '', '', '', 'Direktur'),
+(3, 'Arif Fahmi, S.T., M.T.', '0703039501', '', 'Teknologi Komputer', 'Wadir 1 bidang Akademik'),
+(4, 'Nanang Choirul', '', '', 'Akuntansi', 'Wadir 2 bidang Administrasi Keuangan & Sumber Daya Alam'),
+(5, 'Ike Melanie', '', '', 'Akuntansi', 'Kaprodi Akuntansi'),
+(6, 'Widita', '', '', 'Teknologi Mesin', 'Kaprodi Teknologi Mesin'),
+(7, 'Heru Tri Ahmanto, S.Si.,M.Kom.', '0718128805', '', 'Teknologi Komputer', 'Kaprodi Teknologi Komputer'),
+(8, 'Inggrid Yanuar Riska Ppratiwi, S.S.T.,M.Tr.T', '0712019401', '', 'Teknologi Komputer', 'Dosen'),
+(13, 'Dr.Atan Pramana', '', '', 'Teknologi Komputer', 'Dosen'),
+(14, 'Mainike Silvi Rety Badian', '', '', 'Teknologi Komputer', 'Dosen'),
+(15, 'Andi Karya Catur', '', '', 'Akuntansi', 'Dosen'),
+(16, 'Ayu Desita', '', '', 'Akuntansi', 'Dosen'),
+(17, 'Wona', '', '', 'Akuntansi', 'Dosen'),
+(18, 'Rifki Zainur Rahman,  S.Pd.,M.Pd.', '', '', 'Teknologi Mesin', 'Dosen'),
+(19, 'Rima', '', '', 'Teknologi Mesin', 'Dosen'),
+(20, 'Sunar', '', '', 'Teknologi Mesin', 'Dosen'),
+(21, 'Wahyu', '', '', 'Teknologi Mesin', 'Dosen');
 
 --
 -- Indexes for dumped tables
@@ -153,6 +190,12 @@ ALTER TABLE `prestasi`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indeks untuk tabel `sdm`
+--
+ALTER TABLE `sdm`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT untuk tabel yang dibuang
 --
 
@@ -178,7 +221,13 @@ ALTER TABLE `pdf`
 -- AUTO_INCREMENT untuk tabel `prestasi`
 --
 ALTER TABLE `prestasi`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT untuk tabel `sdm`
+--
+ALTER TABLE `sdm`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
