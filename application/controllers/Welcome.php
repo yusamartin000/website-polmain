@@ -44,8 +44,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('kerjasama');
 	}
-	public function P3M()
+	public function sdm()
 	{
-		$this->load->view('P3M');
+		$data['sdm'] = $this->m_gambar->data_sdm()->result();
+		$this->load->view('sdm', $data);	
 	}
 }

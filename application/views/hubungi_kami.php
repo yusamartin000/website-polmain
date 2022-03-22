@@ -6,9 +6,9 @@
     <!-- my css -->
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>assets/css/hubungi_kami.css">
 
-    <title>KOntak</title>
+    <title>Kontak</title>
   </head>
-  <body>
+  <body style="height: 100vh;">
     <!-- navbar -->
     <div style="width: 100%; background-image: linear-gradient(to top, rgba(0, 123, 255, 1), rgba(0, 59, 122, 1)); box-shadow: 3px 0 5px #050505;"><?php $this->load->view('navbar');?></div>
     <div class="container">
