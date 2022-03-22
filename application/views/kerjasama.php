@@ -16,25 +16,28 @@
       <p>
       <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
         <div class="col-md">
-        Kerjasama Politeknik Masamy Internasional dilakukan dengan banyak industri dan instansi pemerintah maupun swasta
-        untuk menunjang berjalannya proses akademik POLMAIN.
-        <p>
-        <p>Sumber dana pemberian beasiswa ini
-        meliputi pemerintah dalam bentuk dana DIPA dan pemerintah daerah.
-        <p>
-        <p>
-        Pemberian beasiswa ini dilakukan secara rutin setiap tahun dimana kuota untuk calon penerima
-        disesuaikan dari kouta yang diberikan baik dari pemerintah, yayasan sosial ataupun perusahaan swasta.
+        Kerjasama Polmain ditujukan untuk membentuk jalinan kerjasama antara Polmain dengan stakeholder
+        (sesame institusi pendidikan, institusi pemerintahan, maupun perusahaan),
+        sekaligus melakukan berbagai upaya untuk menjaga kesinambungan kerjasama yang telah terbentuk.
+        Kerjasama dengan stakeholder dilakukan guna menggali usaha yang dapat memberikan jaminan kelangsungan
+        financial resources. Prospek Polmain untuk menjalin kerjasama dengan stakeholder sangat tinggi,
+        mengingat Polmain memiliki keunggulan-keunggulan yang sejalan dengan misi kerjasama.
         <p>
         <p>
-        <h4>Jenis Beasiswa POLMAIN:</h4>
+        <b>Daftar Kerjasama Polmain:</b>
         <ol>
-        <li>Beasiswa KIP-Kuliah</li>
-        <li>Beasiswa UKT</li>
-        <li>Beasiswa pemerintah daerah</li>
+        <li>Universitas Indonesia, Fakultas Teknik Mesin, Departemen Teknik Mesin</li>
+        <li>Universitas Trilogi</li>
+        <li>PT. Banyuwangi Cannery Indonesia</li>
+        <li>CV. Pasific Harvest 1</li>
+        <li>CV. Pasific Harvest 2</li>
+        <li>CV. Pasific Harvest 3</li>
+        <li>CV. Pasific Harvest 4</li>
+        <li>B-One Coorp (PT. Satu Visi Indocreative)</li>
+        <li>Universitas  Jember</li>
+        <li>Pemerintah Kabupaten Banyuwangi</li>
         </ol>
         <p>
-        Untuk informasi yang lebih jelas tentang beasiswa POLMAIN, silakan menghubungi UPT POLMAIN.
         </div>
       </div>
     </div>

@@ -1,4 +1,17 @@
 <style type="text/css">
+  .waktu {
+    width: 100%; 
+    text-align: right; 
+    margin: 0; 
+    padding: 10px; 
+    padding-bottom: 0; 
+    color: #fff;
+  }
+  @media (max-width: 770px){
+    .waktu {
+      font-size: 12px;
+    }
+  }
   .goog-logo-link, #goog-gt-tt, .goog-te-balloon-frame, .goog-te-banner-frame.skiptranslate {
     display: none !important;
   }
@@ -24,7 +37,7 @@
 </style>
 <!-- navbar -->
     <div class="container" style="border: none; display: flex;">
-      <p style="width: 100%; text-align: right; margin: 0; padding: 10px; padding-bottom: 0; color: #fff;"><?php date_default_timezone_set('Asia/Jakarta'); echo date('l, d-m-Y H:i:s'); ?></p>
+      <p class="waktu"><?php date_default_timezone_set('Asia/Jakarta'); echo date('l, d-m-Y H:i:s'); ?></p>
       <div id="google_translate_element"></div>
     </div>
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -75,7 +88,7 @@
                 <a class="dropdown-item" href="<?= base_url();?>index.php/welcome/pmb">Penerimaan Mahasiswa Baru</a>
               </div>
             </li>
-            <a class="nav-link" href="#" role="button"aria-haspopup="true" aria-expanded="false" style="color: #fff;">Penelitian & Pengabdian</a>
+            <a class="nav-link" href="<?= base_url();?>index.php/welcome/p3m" role="button"aria-haspopup="true" aria-expanded="false" style="color: #fff;">Penelitian & Pengabdian</a>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #fff;">Layanan</a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">

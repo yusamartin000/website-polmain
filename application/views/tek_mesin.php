@@ -32,15 +32,33 @@
   </div>
     <!-- jumbotron -->
   <div class="container prodi">
-    <h2 class="font-weight-bold title" id="dasar_pemikiran" style="margin-top: 20px;">dasar pemikiran kurikulum</h2>
-    <div class="row">
-      <div class="col">
-        <p>Program Studi Teknologi Mesin diharapkan ikut mengembangkan kemampuan para tenaga terampil siap berkarya di bidang Teknologi Mesin, dengan kemampuan beradaptasi dan bekerja sebagai individu dan tim. Kebutuhan tenaga vokasi lulusan terknik mesin sangat membutuhkan kemampuan adaptasi yang tinggi, terutama dalam bidang otomasi dan komputer, sehingga para lulusan akan dibekali dengan kemampuan penguasaan teknologi canggih ini pada masa kuliah. Program studi teknologi mesin memiliki keselarasan yang saling mengisi dengan Program Studi Teknik Mekatronik, kesamaan ini lebih mengarah pada aktifitas yang menjadi warna Politeknik Mas Ami Internasional (Mas Ami Engineering Polytechnic), terutama pada penanganan mesin-mesin industri sebagai Student Training Centre. Sebagai suatu Program Studi yang dibangun oleh Industri dengan pengalaman dan pasar yang mendunia, serta didukung oleh tenaga pengajar yang berpengalaman dengan klasifikasi S2, serta sarana dan prasarana yang sangat memadai, tujuan ideal pendirian Program Studi Teknologi Mesin akan dapat menjawab kebutuhan tenaga kerja terampil di bidang Teknologi Mesin di Indonesia maupun di luar negeri. Kebutuhan lulusan Teknologi Mesin sebagai salahsatu Ilmu tertua dapat masuk dalam sektor pertambangan, perindustrian, transportasi bahkan dalam beberapa bidang lainnya.</p>
+  <div class="container">
+      <h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Visi dan Misi Program Studi D3 Teknologi Mesin</h3>
+      <p>
+      <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
+        <div class="col-md">
+        <b>Visi Prodi D3 Teknologi Mesin</b><p><p><p>
+        <p>
+        <b>Misi Prodi D3 Teknologi Mesin</b>
+        <ol>
+        <!-- <li>Menyelenggarakan pengelolaan Prodi D3 Akuntansi yang kredibel, berdasarkan prinsip transparansi,
+            akuntabilitas, berkeadilan, mandiri dan berintegritas serta menyelenggarakan kerjasama dengan pihak lain yang saling menguntungkan</li>
+        <li>Menyelenggarakan Prodi D3 Akuntansi menjadi prodi dengan menjalankan suatu kurikulum yang visioner dan adaptif</li>
+        <li>Menyelenggarakan Sumber Daya Manusia Prodi D3 Akuntansi yang berkualitas dan profesional</li>
+        <li>Menyelenggarakan lulusan yang ahli dibidang akuntansi yang terampil dan siap kerja</li>
+        <li>Menyelenggarakan sarana dan prasarana yang lengkap, berbasis teknologi informasi yang efisiens, efektif, 
+            dan ramah lingkungan serta pengelolaan keuangan yang mandiri</li>
+        <li>Menyelenggarakan riset dan pengabdian kepada masyarakat di bidang akuntansi yang dapat meningkatkan kesejahteraan masyarakat </li> -->
+        </ol>
+        <p>
+        <h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Kurikulum Prodi D3 Teknologi Mesin 2021</h3>
+      <p>
+      <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
+        <img src="<?= base_url();?>assets/img/prodi/kurikulum-mesin-2021.jpg" style="width: 100%; border: 5px solid #4e03fc;">
+        </div>
       </div>
-  <div class="bulat1"></div>
-  <div class="bulat2"></div>
+    </div>
   </div>
-  <a href="<?= base_url();?>index.php/database/download/PDF-MSN" class="btn btn-primary" style="width: 13em; border-radius: 100px; box-shadow: 2px 2px 3px #c7c7c7; margin-bottom: 10px;">Download PDF</a>
 </div>
   <!-- load bootstrap js -->
   <?php $this->load->view('bootjs');?>
