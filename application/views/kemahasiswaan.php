@@ -9,7 +9,6 @@
       <!-- navbar -->
       <div style="width: 100%; background-image: linear-gradient(to top, rgba(0, 123, 255, 1), rgba(0, 59, 122, 1)); box-shadow: 3px 0 5px #050505; margin-bottom: 20px;"><?php $this->load->view('navbar');?></div>
     <div class="container">
-      <iframe src="https://drive.google.com/file/d/1DFYm9VjTPuJTbjmEt49-hGQGdNnGUEPg/preview" width="100%" height="480" allow="autoplay" style="border: none; border-radius: 10px;"></iframe>
       <h2 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Badan Eksekutif Mahasiswa (BEM)</h2>
       <h5>VISI BEM POLMAIN</h5>
       <ul>

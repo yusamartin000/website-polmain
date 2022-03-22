@@ -14,6 +14,7 @@
     <div class="container">
       <u><h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Penerimaan Mahasiswa Baru Tahun Akademik 2022/2023</h3></u>
       <p>
+      <iframe src="https://drive.google.com/file/d/1DFYm9VjTPuJTbjmEt49-hGQGdNnGUEPg/preview" width="100%" height="480" allow="autoplay" style="border: none; border-radius: 10px;"></iframe>
       <div class="row">
         <div class="col">
           <div class="col-md card" style="box-shadow: 2px 2px 3px #c7c7c7; margin-bottom: 20px;">

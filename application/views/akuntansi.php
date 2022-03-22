@@ -20,26 +20,47 @@
           </div>
           <div class="col">
             <div class="imgcontainer">
-              <img src="<?= base_url();?>assets/img/prodi/akuntansi3.jpg" style="width: 100%;">
+              <img src="<?= base_url();?>assets/img/prodi/akuntansi2.jpg" style="width: 50%;">
             </div>
           </div>
           </div>
-            <div class="ornament">
-            <div class="bulat"></div>
           </div>
         </div>
   </div>
     <!-- jumbotron -->
   <div class="container prodi">
-    <h2 class="font-weight-bold title" id="dasar_pemikiran" style="margin-top: 20px;">dasar pemikiran kurikulum</h2>
-    <div class="row">
-      <div class="col">
-        <p>Program Studi Akuntansi diharapkan menjadi salah satu Program Studi unggulan Diploma 3 yang diakui, baik di tingkat nasional maupun internasional. <br><br>Dalam menyelenggarakan pendidikannya, Program Studi Akuntansi Politeknik Mas Ami Internasional akan berupaya untuk menyesuaikan materi pendidikan dengan perkembangan Teknik Akuntansi yang mutakhir, baik secara nasional maupun internasional. Hal ini diwujudkan dengan melakukan kerjasama dengan berbagai industri atau institusi yang menerapkan teknikakuntansimodern, membentuk jaringan akademis dengan institusi sejenis baik Politeknik atau Universitas Negeri maupun swasta, baik didalam negeri maupun diluar negeri. <br><br>Disamping itu, era masa kini adalah era dimana penguasaan ilmu pengetahuan diukur dengan sertifikasi kompentensi dari berbagai lembaga sertifikasi maupun asosiasi profesi. Kurikulum Program Studi Akuntansi diarahkan agar para peserta didik dapat menyerap pengetahuan yang diperlukan untuk mengikuti program sertifikasi yang diselenggarakanlembaga sertifikasi bidang akuntansi pada tingkat diploma 3 (misalnya seperti lembaga sertifikasi internasional CAT; Certified Accounting Technician), atau sertifikasi yang diselenggarakan oleh badan sertifikasi lain, baik ditingkat nasional maupun internasional. <br><br>Rancangan kurikulum seperti ini memungkinkan para peserta didik ataupun alumnus Politeknik Mas Ami Internasional untuk meraih kompetensi dalam bidang Akuntansidengan sertifikasi yang diakui secara internasional. <br><br>Beberapa matakuliah, diisi dengan materi materi yang diperlukan oleh mahasiswa untuk menguasai pengetahuan yang diperlukan untuk proses sertifikasi. Pada tahap awal ini, sertifikasi keahlian yang disasar adalah sertifikasi dari CAT, Seperti diketahui, sertifikasi CAT diakui di banyak negara Asia Tenggara (Singapore, Malaysia atau Philipine) maupun negara dikawasan di luar kawasan Asia Tenggara, seperti misalnya Hongkong. Sertifikasi teknisi akuntansi internasional sudah menjadi kebutuhan di negara negara seperti yang disebutkan diatas, sebagai salah satu persyaratan yang diperlukan untuk melaksanakan transaksi bisnis secara internasional.</p>
+  <div class="container">
+      <h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Visi dan Misi Program Studi D3 Akuntansi</h3>
+      <p>
+      <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
+        <div class="col-md">
+        <b>Visi Prodi D3 Akuntansi</b><p><p>
+        Menjadi Program Studi (Prodi) D3 Akuntansi unggul menghasilkan lulusan yang siap bekerja pada berbagai industri bertaraf
+        internasional baik di dalam negeri maupun di luar negeri.
+        
+        <p>
+        <p>
+        <b>Misi Prodi D3 Akuntansi</b>
+        <ol>
+        <li>Menyelenggarakan pengelolaan Prodi D3 Akuntansi yang kredibel, berdasarkan prinsip transparansi,
+            akuntabilitas, berkeadilan, mandiri dan berintegritas serta menyelenggarakan kerjasama dengan pihak lain yang saling menguntungkan</li>
+        <li>Menyelenggarakan Prodi D3 Akuntansi menjadi prodi dengan menjalankan suatu kurikulum yang visioner dan adaptif</li>
+        <li>Menyelenggarakan Sumber Daya Manusia Prodi D3 Akuntansi yang berkualitas dan profesional</li>
+        <li>Menyelenggarakan lulusan yang ahli dibidang akuntansi yang terampil dan siap kerja</li>
+        <li>Menyelenggarakan sarana dan prasarana yang lengkap, berbasis teknologi informasi yang efisiens, efektif, 
+            dan ramah lingkungan serta pengelolaan keuangan yang mandiri</li>
+        <li>Menyelenggarakan riset dan pengabdian kepada masyarakat di bidang akuntansi yang dapat meningkatkan kesejahteraan masyarakat </li>
+        </ol>
+        <p>
+        <h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Kurikulum Prodi D3 Akuntansi 2021</h3>
+      <p>
+      <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
+        <img src="<?= base_url();?>assets/img/prodi/kurikulum-akuntansi-2021.jpg" style="width: 100%; border: 5px solid #34a853;">
+        </div>
       </div>
-  <div class="bulat1"></div>
-  <div class="bulat2"></div>
+    </div>
+ 
   </div>
-  <a href="<?= base_url();?>index.php/database/download/PDF-AKA" class="btn btn-primary" style="width: 13em; border-radius: 100px; box-shadow: 2px 2px 3px #c7c7c7; margin-bottom: 10px;">Download PDF</a>
 </div>
   <!-- load bootstrap js -->
   <?php $this->load->view('bootjs');?>

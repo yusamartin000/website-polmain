@@ -31,16 +31,35 @@
   </div>
     <!-- jumbotron -->
   <div class="container prodi">
-    <h2 class="font-weight-bold title" id="dasar_pemikiran" style="margin-top: 20px;">dasar pemikiran kurikulum</h2>
-    <div class="row">
-      <div class="col">
-        <p>Program Studi Teknologi Komputer yang diusulkan diharapkan menjadi salah satu Program Studi unggulan Diploma 3 Teknik Teknologi Komputer yang diakui, baik di tingkat nasional maupun internasional. <br>Dalam menyelenggarakan pendidikannya, Program Studi Teknologi Komputer Politeknik Mas Ami Internasional akan berupaya untuk menyesuaikan materi pendidikan dengan perkembangan Teknologi Komputer yang mutakhir, baik secara nasional maupun internasional. Hal ini diwujudkan dengan melakukan kerjasama dengan berbagai industri yang bergerak dalam bidang Teknologi Komputer ataupun industri lain yang terkait, membentuk jaringan akademis dengan institusi sejenis baik Politeknik atau Universitas Negeri maupun swasta, baik didalam maupun diluar negeri. <br>Disamping itu, era masa kini adalah era dimana penguasaan ilmu pengetahuan diukur dengan sertifikasi kompentensi dari berbagai lembaga sertifikasi maupun asosiasi profesi. Kurikulum Program Studi Teknologi Komputer diarahkan agar para peserta didik dapat menyerap pengetahuan yang diperlukan untuk mengikuti program sertifikasi yang diselenggarakan baik oleh Vendors (perusahaan perusahaan pemroduksi alat atau perangkat, seperi CISCO, Microsoft, Oracle), atau sertifikasi yang diselenggarakan oleh badan independent, yang tidak terkait dengan vendor manapun seperti ComTIA dan lain sebagainya. <br>Rancangan kurikulum seperti ini memungkinkan para peserta didik ataupun alumnus Politeknik Mas Ami Internasional untuk meraih kompetensi dalam bidang Teknologi Komputer dengan sertifikasi yang diakui secara internasional. <br>Beberapa matakuliah, diisi dengan materi materi yang diperlukan oleh mahasiswa untuk menguasai pengetahuan yang diperlukan untuk proses sertifikasi. Pada tahap awal ini, sertifikasi keahlian yang disasar adalah sertifikasi dari CISCO, produsen alat yang digunakan untuk membentuk jaringan komputer seperti switch, router dan lain sebagainya. Seperti diketahui, jaringan computer merupakan kebutuhan yang tidak CISCO menguasai sekitar 50 % dari pangsa pasar alat alat yang digunakan pada jaringan komputer diseluruh dunia. Seperti kita ketahui, teknologi jaringan komputer merupakan merupakan teknologi yang dibutuhkan oleh setiap institusi modern, baik dalam lingkungan bisnis, industry ataupun pemerintahan.</p>
+  <div class="container">
+      <h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Visi dan Misi Program Studi D3 Teknologi Komputer</h3>
+      <p>
+      <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
+        <div class="col-md">
+        <b>Visi Prodi D3 Teknologi Komputer</b><p><p><p>
+        <p>
+        <b>Misi Prodi D3 Teknologi Komputer</b>
+        <ol>
+        <!-- <li>Menyelenggarakan pengelolaan Prodi D3 Akuntansi yang kredibel, berdasarkan prinsip transparansi,
+            akuntabilitas, berkeadilan, mandiri dan berintegritas serta menyelenggarakan kerjasama dengan pihak lain yang saling menguntungkan</li>
+        <li>Menyelenggarakan Prodi D3 Akuntansi menjadi prodi dengan menjalankan suatu kurikulum yang visioner dan adaptif</li>
+        <li>Menyelenggarakan Sumber Daya Manusia Prodi D3 Akuntansi yang berkualitas dan profesional</li>
+        <li>Menyelenggarakan lulusan yang ahli dibidang akuntansi yang terampil dan siap kerja</li>
+        <li>Menyelenggarakan sarana dan prasarana yang lengkap, berbasis teknologi informasi yang efisiens, efektif, 
+            dan ramah lingkungan serta pengelolaan keuangan yang mandiri</li>
+        <li>Menyelenggarakan riset dan pengabdian kepada masyarakat di bidang akuntansi yang dapat meningkatkan kesejahteraan masyarakat </li> -->
+        </ol>
+        <p>
+        <h3 class="font-weight-bold title" id="tentang_polmain" style="margin-top: 20px;">Kurikulum Prodi D3 Teknologi Komputer 2021</h3>
+      <p>
+      <div class="row" style="border-top: 1px solid #c7c7c7; padding: 10px;">
+        <img src="<?= base_url();?>assets/img/prodi/kurikulum-komputer-2021.jpg" style="width: 100%; border: 5px solid #c1c9c4;">
+        </div>
       </div>
-  <div class="bulat1"></div>
-  <div class="bulat2"></div>
-</div>
-  <a href="<?= base_url();?>index.php/database/download/PDF-KOM" class="btn btn-primary" style="width: 13em; border-radius: 100px; box-shadow: 2px 2px 3px #c7c7c7; margin-bottom: 10px;">Download PDF</a>
+    </div>
   </div>
+  </div>
+</div>
   <!-- load bootstrap js -->
   <?php $this->load->view('bootjs');?>
   </body>

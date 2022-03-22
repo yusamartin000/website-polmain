@@ -28,7 +28,7 @@
         disesuaikan dari kouta yang diberikan baik dari pemerintah, yayasan sosial ataupun perusahaan swasta.
         <p>
         <p>
-        <h4>Jenis Beasiswa POLMAIN:</h4>
+        <b>Jenis Beasiswa POLMAIN:</b>
         <ol>
         <li>Beasiswa KIP-Kuliah</li>
         <li>Beasiswa UKT</li>
@@ -39,7 +39,8 @@
         </div>
       </div>
     </div>
-    <?php include('footer.php');?>  
+    <?php include('footer.php');?>
+    
   <!-- load bootstrap js -->
   <?php $this->load->view('bootjs');?>
   </body>
